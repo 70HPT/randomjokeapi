@@ -36,15 +36,15 @@ public class DemoApplication {
 
 				System.out.println("**********Random Joke********");
 				System.out.println("Joke: " + joke);
-				System.out.println("setup: " + setup);
-				System.out.println("punchline" + punchline);
-				System.out.println("id" + id);
+				System.out.println("Setup: " + setup);
+				System.out.println("Punchline: " + punchline);
+				System.out.println("Id: " + id);
 
 			} catch (JsonProcessingException ex) {
 				Logger.getLogger(DemoApplication.class.getName()).log(
 						Level.SEVERE,
 						null, ex);
-				System.out.println("error in getCatFact");
+				System.out.println("error in getRandomjoke");
 
 			}
 		}
